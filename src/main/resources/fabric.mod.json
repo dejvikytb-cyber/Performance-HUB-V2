@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "performancehub",
+  "version": "${version}",
+  "name": "Performance Hub",
+  "description": "Profily podle hardwaru a přehledné nastavení výkonu (video, svět, entity, částice, HUD) v jednom minimalistickém GUI.",
+  "authors": ["Ty"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["cz.perfhub.PerfHubClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
